@@ -8,7 +8,7 @@ Environment="LC_ALL=C.UTF-8"
 Environment="LANG=C.UTF-8"
 Type=simple
 User=pi
-ExecStart=/home/pi/OctoPrint/venv/bin/octoprint --port 5002 --pid /tmp/ocp3 --basedir /home/pi/.octoprint3
+ExecStart=/home/pi/OctoPrint/venv/bin/octoprint --port 5003 --pid /tmp/ocp4 --basedir /home/pi/.octoprint4
 
 [Install]
 WantedBy=multi-user.target
